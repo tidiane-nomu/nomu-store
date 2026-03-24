@@ -1,0 +1,167 @@
+@media (max-width: 768px) {
+  /* Layout */
+  .container {
+    padding: 0 var(--space-md);
+  }
+
+  .section {
+    padding: var(--space-xl) var(--space-md);
+  }
+
+  /* Hero */
+  .hero {
+    padding: var(--space-2xl) var(--space-md);
+    gap: var(--space-md);
+  }
+
+  .hero-title {
+    font-size: 36px;
+    line-height: 1.22;
+  }
+
+  .hero-desc {
+    font-size: var(--font-size-base);
+    line-height: 1.6;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .btn {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 14px 24px 14px 20px;
+  }
+
+  .btn svg, .btn img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .label {
+    font-size: 16px;
+    padding: 12px 24px 12px 20px;
+  }
+
+  /* Sections */
+  .section-title {
+    font-size: 28px;
+    line-height: 1.28;
+  }
+
+  .section-desc {
+    font-size: var(--font-size-sm);
+    line-height: 1.57;
+  }
+
+  .cards-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-sm);
+  }
+
+  /* Cards */
+  .card {
+    padding: 28px 40px 40px;
+  }
+
+  .card-title {
+    font-size: 28px;
+  }
+
+  .card-desc {
+    font-size: var(--font-size-sm);
+    max-width: 100%;
+  }
+
+  .card-features {
+    gap: 14px;
+    margin-top: var(--space-md);
+  }
+
+  .feature-row svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  .feature-row span {
+    font-size: 15px;
+  }
+
+  /* Pricing */
+  .pricing-card {
+    padding: 28px 40px 40px;
+  }
+
+  .pricing-price .amount {
+    font-size: 40px;
+  }
+
+  .pricing-price .period {
+    font-size: var(--font-size-base);
+  }
+
+  .pricing-card .divider {
+    margin: 24px 0;
+  }
+
+  /* CTA */
+  .cta-wrapper {
+    padding: 0 var(--space-md);
+  }
+
+  .cta {
+    padding: var(--space-xl) var(--space-md);
+    gap: var(--space-md);
+  }
+
+  .cta-title {
+    font-size: 28px;
+  }
+
+  .cta-desc {
+    font-size: 15px;
+  }
+
+  .cta-buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  /* Footer */
+  .footer-wrapper {
+    padding: 0 var(--space-md) var(--space-xl);
+  }
+
+  .footer {
+    padding: var(--space-xl) var(--space-md);
+    text-align: center;
+  }
+
+  .footer-top {
+    flex-direction: column;
+    gap: var(--space-md);
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: var(--space-sm);
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: var(--space-sm);
+  }
+
+  .footer-socials {
+    justify-content: center;
+  }
+
+  /* Hide desktop decorative elements on mobile */
+  .hero-beam, .star, .dot {
+    display: none;
+  }
+}

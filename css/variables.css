@@ -1,0 +1,45 @@
+:root {
+  /* Colors */
+  --color-bg: #0D1117;
+  --color-text: #FBFBFB;
+  --color-muted: #73738A;
+  --color-turquoise: #47EBEB;
+  --color-indigo: #8952FD;
+
+  /* Surfaces */
+  --color-surface: rgba(255, 255, 255, 0.03);
+  --color-stroke: rgba(255, 255, 255, 0.08);
+
+  /* Radii */
+  --radius-pill: 9999px;
+  --radius-card: 24px;
+  --radius-section: 32px;
+  --radius-input: 16px;
+
+  /* Spacing */
+  --space-xs: 8px;
+  --space-sm: 16px;
+  --space-md: 24px;
+  --space-lg: 40px;
+  --space-xl: 64px;
+  --space-2xl: 80px;
+  --space-3xl: 120px;
+
+  /* Typography */
+  --font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-size-xs: 13px;
+  --font-size-sm: 14px;
+  --font-size-base: 16px;
+  --font-size-md: 17px;
+  --font-size-lg: 18px;
+  --font-size-xl: 20px;
+  --font-size-2xl: 32px;
+  --font-size-3xl: 38px;
+  --font-size-4xl: 44px;
+  --font-size-hero: 64px;
+
+  /* Gradients */
+  --gradient-stroke: linear-gradient(135deg, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0.05) 33%, rgba(255,255,255,0.2) 70%, rgba(255,255,255,0.02) 100%);
+  --gradient-radial-card: radial-gradient(ellipse at 30% 0%, rgba(255,255,255,0.07) 0%, transparent 70%);
+  --gradient-divider: linear-gradient(90deg, transparent 0%, var(--color-turquoise) 30%, var(--color-indigo) 70%, transparent 100%);
+}
