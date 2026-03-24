@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/components.css">
   <link rel="stylesheet" href="css/sections.css">
+  <link rel="stylesheet" href="css/animations.css">
   <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
@@ -69,13 +70,13 @@
     <div class="section-glow" style="width:600px;height:400px;left:-100px;bottom:0;background:radial-gradient(ellipse,rgba(71,235,235,0.06),transparent);"></div>
     <div class="section-glow" style="width:500px;height:350px;right:-50px;bottom:50px;background:radial-gradient(ellipse,rgba(137,82,253,0.05),transparent);"></div>
 
-    <div class="section-header">
+    <div class="section-header reveal">
       <h2 class="section-title">Three layers, one operating system</h2>
       <p class="section-desc">Nomu Stores compresses what premium brands usually have to assemble across storefront design, commerce infrastructure, and operational delivery into one coherent system.</p>
     </div>
 
-    <div class="cards-grid">
-      <div class="card">
+    <div class="cards-grid reveal-stagger">
+      <div class="card reveal" style="--stagger:0">
         <h3 class="card-title">Blind Boxes</h3>
         <p class="card-desc">Create and launch your own limited-time blind box campaign on our platform.</p>
         <div class="card-features">
@@ -98,7 +99,7 @@
         </div>
       </div>
 
-      <div class="card">
+      <div class="card reveal" style="--stagger:1">
         <h3 class="card-title">Launch</h3>
         <p class="card-desc">Turn your product idea into a funded and produced product.</p>
         <div class="card-features">
@@ -121,7 +122,7 @@
         </div>
       </div>
 
-      <div class="card">
+      <div class="card reveal" style="--stagger:2">
         <h3 class="card-title">Stores</h3>
         <p class="card-desc">Create a dedicated branded storefront inside our ecosystem.</p>
         <div class="card-features">
@@ -155,13 +156,13 @@
     <div class="dot" style="width:3px;height:3px;bottom:150px;right:100px;background:rgba(71,235,235,0.2);"></div>
     <div class="section-glow" style="width:800px;height:500px;left:50%;top:400px;transform:translateX(-50%);background:radial-gradient(ellipse,rgba(137,82,253,0.08),rgba(71,235,235,0.04) 60%,transparent);"></div>
 
-    <div class="section-header">
+    <div class="section-header reveal">
       <h2 class="section-title">Simple, transparent pricing</h2>
       <p class="section-desc">Choose the plan that fits your brand. Upgrade or downgrade at any time.</p>
     </div>
 
-    <div class="cards-grid">
-      <div class="pricing-card">
+    <div class="cards-grid reveal-stagger">
+      <div class="pricing-card reveal" style="--stagger:0">
         <div class="pricing-price"><span class="amount">$19</span><span class="period">/mo</span></div>
         <h3 class="card-title">Starter</h3>
         <p class="card-desc">Perfect for creators testing the waters.</p>
@@ -190,7 +191,7 @@
         </a>
       </div>
 
-      <div class="pricing-card">
+      <div class="pricing-card reveal" style="--stagger:1">
         <div class="pricing-price"><span class="amount">$49</span><span class="period">/mo</span></div>
         <h3 class="card-title">Growth</h3>
         <p class="card-desc">For brands ready to scale their reach.</p>
@@ -219,7 +220,7 @@
         </a>
       </div>
 
-      <div class="pricing-card">
+      <div class="pricing-card reveal" style="--stagger:2">
         <div class="pricing-price"><span class="amount">$99</span><span class="period">/mo</span></div>
         <h3 class="card-title">Enterprise</h3>
         <p class="card-desc">Full power for established brands.</p>
@@ -257,9 +258,9 @@
       <div class="cta-glow" style="width:500px;height:350px;left:-150px;top:50px;background:radial-gradient(ellipse,rgba(71,235,235,0.1),transparent);"></div>
       <div class="cta-glow" style="width:450px;height:300px;right:-100px;top:80px;background:radial-gradient(ellipse,rgba(137,82,253,0.1),transparent);"></div>
 
-      <h2 class="cta-title">Ready to launch your store?</h2>
-      <p class="cta-desc">Join hundreds of premium brands already using Nomu to power their commerce.</p>
-      <div class="cta-buttons">
+      <h2 class="cta-title reveal">Ready to launch your store?</h2>
+      <p class="cta-desc reveal">Join hundreds of premium brands already using Nomu to power their commerce.</p>
+      <div class="cta-buttons reveal">
         <a href="#" class="btn btn-primary">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 2L13.5 8.5L20 7L15.5 12L20 17L13.5 15.5L12 22L10.5 15.5L4 17L8.5 12L4 7L10.5 8.5L12 2Z" fill="currentColor"/></svg>
           Get Started
@@ -274,7 +275,7 @@
 
   <!-- ========== FOOTER ========== -->
   <div class="footer-wrapper">
-    <footer class="footer">
+    <footer class="footer reveal-scale">
       <div class="footer-top">
         <div class="footer-logo">
           <svg width="92" height="30" viewBox="0 0 92 30" fill="none">
@@ -302,5 +303,6 @@
     </footer>
   </div>
 
+  <script src="js/main.js"></script>
 </body>
 </html>
